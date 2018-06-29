@@ -17,5 +17,5 @@ consumer.on("message", msg => {
 });
 
 consumer.on("error", err => {
-  console.log(`Error: ${msg}`);
+  console.log(`Error: ${err}`);
 });
